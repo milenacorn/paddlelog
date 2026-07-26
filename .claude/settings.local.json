@@ -25,7 +25,10 @@
       "Bash(gh auth *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(rm -f public/next.svg public/vercel.svg)",
+      "Bash(npx tsc *)",
+      "Bash(lsof -ti:3001)"
     ],
     "additionalDirectories": [
       "/Users/mlab2/.claude/projects/-Users-mlab2-projects-PaddleLog/memory"
