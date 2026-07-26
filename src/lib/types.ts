@@ -3,4 +3,6 @@ export type PaddleSession = {
   lakeName: string;
   date: string;
   notes: string;
+  lat?: number;
+  lng?: number;
 };

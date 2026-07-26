@@ -28,7 +28,18 @@
       "Bash(git push *)",
       "Bash(rm -f public/next.svg public/vercel.svg)",
       "Bash(npx tsc *)",
-      "Bash(lsof -ti:3001)"
+      "Bash(lsof -ti:3001)",
+      "Bash(git config *)",
+      "Bash(curl -s -o /tmp/paddlelog-page.html -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Read(//tmp/**)",
+      "Bash(mkdir -p public/leaflet)",
+      "Bash(cp node_modules/leaflet/dist/images/marker-icon.png node_modules/leaflet/dist/images/marker-icon-2x.png node_modules/leaflet/dist/images/marker-shadow.png public/leaflet/)",
+      "Read(//Users/mlab2/projects/paddlelog/public/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Read(//private/tmp/**)",
+      "Bash(tail -30 /tmp/paddlelog-dev.log 2>/dev/null; echo \"---\"; find . -name \"*.log\" -newer package.json -not -path \"./node_modules/*\" 2>/dev/null)",
+      "Bash(tail -50 .next/dev/logs/next-development.log 2>/dev/null)",
+      "Read(//Users/mlab2/projects/paddlelog/.next/dev/logs/**)"
     ],
     "additionalDirectories": [
       "/Users/mlab2/.claude/projects/-Users-mlab2-projects-PaddleLog/memory"
