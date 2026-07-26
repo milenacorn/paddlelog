@@ -9,7 +9,26 @@
       "Bash(curl -s https://api.github.com/repos/milenacorn/knit-reader)",
       "Bash(gh api *)",
       "Bash(npm -v)",
-      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-git)"
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-git)",
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "Bash(git -C /Users/mlab2/projects/paddlelog status)",
+      "Bash(git -C /Users/mlab2/projects/paddlelog log --oneline)",
+      "Bash(cat package.json)",
+      "Read(//Users/mlab2/projects/paddlelog/**)",
+      "Bash(lsof -ti:3000)",
+      "Bash(xargs kill)",
+      "Bash(cat .gitignore)",
+      "Bash(mkdir -p /Users/mlab2/.claude/projects/-Users-mlab2-projects-PaddleLog/memory)",
+      "Bash(git -C /Users/mlab2/projects/paddlelog remote -v)",
+      "Bash(git -C /Users/mlab2/projects/paddlelog status -s)",
+      "Bash(gh auth *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ],
+    "additionalDirectories": [
+      "/Users/mlab2/.claude/projects/-Users-mlab2-projects-PaddleLog/memory"
     ]
   }
 }
