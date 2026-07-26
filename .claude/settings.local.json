@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat /Users/mlab2/.claude/projects/-Users-mlab2-projects-PaddleLog/memory/MEMORY.md 2>/dev/null; echo \"---\"; grep -ril \"knit\" /Users/mlab2/.claude/projects/-Users-mlab2-projects-PaddleLog/memory/ 2>/dev/null)",
+      "Read(//Users/mlab2/.claude/projects/-Users-mlab2-projects-PaddleLog/memory/**)",
+      "Read(//Users/mlab2/projects/**)",
+      "Read(//Users/mlab2/.claude/projects/**)",
+      "Bash(gh repo *)",
+      "Bash(curl -s https://api.github.com/repos/milenacorn/knit-reader)",
+      "Bash(gh api *)",
+      "Bash(npm -v)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-git)"
+    ]
+  }
+}
